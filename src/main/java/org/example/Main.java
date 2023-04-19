@@ -26,10 +26,6 @@ public class Main {
 
 		groupList = countingGroup(groupList, mas);
 
-		int[][] newMas = new int[groupList.size()][mas[0].length];
-
-		countingNewMas(mas, newMas, groupList);
-		printMas(newMas);
-
+		printFinalMas(mas, groupList);
 	}
 }
